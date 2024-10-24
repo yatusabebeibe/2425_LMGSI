@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página web multimedia con imágenes, videos y audio.">
+    <meta name="keywords" content="Multimedia, Videos, Imágenes, Audio">
+    <meta name="author" content="Tu Nombre y Apellidos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ud2.04 Jesus Temprano Gallego </title>
+    <link rel="icon" href="media/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <style>
+        video{height: 225px;}
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>MULTIMEDIA: Título del tema</h1>
+    </header>
+
+    <!-- CONTENIDO DE LA PÁGINA -->
+    <main>
+        <section>
+            <h2>Imágenes</h2>
+            <img src="media/images/imagen1.jpg" alt="Descripción de la imagen 1">
+            <img src="media/images/imagen2.jpg" alt="Descripción de la imagen 2">
+            <img src="media/images/imagen3.jpg" alt="Descripción de la imagen 3">
+        </section>
+
+        <section>
+            <h2>Videos</h2>
+            <video controls>
+                <source src="./media/videos/video1.mp4" type="video/mp4">
+                <source src="media/video/video1.ogv" type="video/ogg">
+                Tu navegador no soporta videos en HTML5.
+            </video>
+
+            <video controls>
+                <source src="./media/videos/video2.webm" type="video/webm">
+                <source src="media/video/video2.ogv" type="video/ogg">
+                Tu navegador no soporta videos en HTML5.
+            </video>
+
+            <video controls>
+                <source src="./media/videos/video3.ogv" type="video/ogg">
+                <source src="./media/videos/video3.mp4" type="video/ogg">
+                Tu navegador no soporta videos en HTML5.
+            </video>
+
+            <h3>Video de YouTube</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SwKS4UeR9gw" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>Audios</h2>
+            <audio controls>
+                <source src="./media/audios/audio1.mp3" type="audio/mpeg">
+                <source src="media/audio/audio1.ogg" type="audio/ogg">
+                Tu navegador no soporta audios en HTML5.
+            </audio>
+
+            <audio controls>
+                <source src="media/audio/audio2.mp3" type="audio/mpeg">
+                <source src="media/audio/audio2.ogg" type="audio/ogg">
+                Tu navegador no soporta audios en HTML5.
+            </audio>
+
+            <audio controls>
+                <source src="media/audio/audio3.mp3" type="audio/mpeg">
+                <source src="media/audio/audio3.ogg" type="audio/ogg">
+                Tu navegador no soporta audios en HTML5.
+            </audio>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>202x-2x IES LOS SAUCES. ©Todos los derechos reservados. Tu Nombre y Apellidos.</p>
+        <time datetime="2024-10-24">Fecha de actualización: 24 de octubre de 2024</time>
+    </footer>
+</body>
+</html>
