@@ -1,0 +1,11 @@
+*{cursor: url(../media/cursor.cur), auto;}
+a,a *{cursor: url(../media/cursorLink.cur), pointer;}
+
+/* *{margin: 0; padding: 0;}
+header, footer{ */
+    /* Top right bootom left */
+    /* margin: 30px 60px 45px 18px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: aqua;
+} */
