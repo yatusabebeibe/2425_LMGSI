@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table {border-collapse: collapse; text-align: center;}
+        td,th {border: 2px solid black; padding: 0px 3.5px; }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+
+    <article>
+        <h2>Tabla1</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mes</th>
+                    <th>Precipitacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Enero</th>
+                    <td>23,5</td>
+                </tr>
+                <tr>
+                    <th>Febrero</th>
+                    <td>7,5</td>
+                </tr>
+                <tr>
+                    <th>Marzo</th>
+                    <td>82</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td>113</td>
+                </tr>
+            </tfoot>
+        </table>
+    </article>
+
+    <article>
+        <h2>Tabla 2</h2>
+        <table>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td colspan="2">celda cs2</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td colspan="3">celda colspan4</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td colspan="4">celda colspan4</td>
+            </tr>
+        </table>
+    </article>
+
+    <article>
+        <h2>Tabla3</h2>
+        <table>
+            <tr>
+                <td>celda</td>
+                <td rowspan="2">celda</td>
+                <td rowspan="3">celda</td>
+                <td rowspan="4">celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+        </table>
+    </article>
+
+    <article>
+        <h2>tabla4</h2>
+        <table>
+            <tr>
+                <td rowspan="2" colspan="2">celda</td>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+            </tr>
+            <tr>
+                <td>celda</td>
+                <td>celda</td>
+                <td>celda</td>
+            </tr>
+        </table>
+    </article>
+</body>
+</html>
